@@ -9,9 +9,6 @@ echo "path refreshed for this shell session"
 choco install firefox
 choco install vlc
 choco install winrar
-choco install spotify
-choco install spicetify-cli
-choco install spicetify-marketplace
 choco install discord
 choco install steam
 choco install windirstat
@@ -45,3 +42,5 @@ Invoke-WebRequest -Uri "https://github.com/Droptop-Four/Basic-Version/raw/main/D
 mkdir "non_choco/taskbarXI"
 Invoke-WebRequest -Uri "https://github.com/ChrisAnd1998/TaskbarXI/releases/download/1.0.4.0/TaskbarXI.exe" -OutFile "./non_choco/taskbarXI/taskbarXI.exe"
 Invoke-WebRequest -Uri "https://github.com/ChrisAnd1998/TaskbarXI/releases/download/1.0.4.0/TaskbarXIMFCGUI.exe" -OutFile "./non_choco/taskbarXI/taskbarXI_config.exe"
+
+Invoke-WebRequest -Uri "https://download.scdn.co/SpotifySetup.exe" -OutFile "./non_choco/spotify.exe"

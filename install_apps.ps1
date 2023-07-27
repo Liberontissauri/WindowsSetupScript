@@ -27,6 +27,7 @@ choco install obsidian
 choco install microsoft-windows-terminal
 choco install vscode
 choco install wsl
+choco install git
 
 echo "Finished installing chocolatey apps"
 
